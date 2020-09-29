@@ -16,28 +16,41 @@ body {
 }
 
 .site-footer {
-  background-image: url("/img/phoneb.jpg");
+  
   padding: 20px 0;
   margin-top: 100px;
 }
 
 h1 {
+  font-family: 'Orbitron', sans-serif;
   color: rgb(137, 201, 238);
   font-size: 70px;
 }
 
-h3 {
+h2 {
+  font-family: 'Orbitron', sans-serif;
   color: rgb(137, 201, 238);
 }
 
-.card-flip, .card, .dropdown-menu {
-  background-color:#c5cae949;
+h3, h6 {
   
+  color: rgb(137, 201, 238);
+}
+
+.card-flip, .card {
+  background-color:#c5cae949;
+}
+
+.dropdown-menu {
+  background-color: rgba(1, 91, 170, 0.452);
+}
+
+.card-header {
+  background-color: rgba(184, 216, 245, 0.144);
 }
 
 .dropdown-item {
   color: aliceblue;
-  
 }
 
 

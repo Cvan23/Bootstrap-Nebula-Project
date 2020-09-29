@@ -1,0 +1,74 @@
+.jumbotron {
+  background-image: url("/img/phoneb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+body {
+  background-image: url("/img/blurbg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color:#d2d6020e;
+}
+
+.site-footer {
+  background-image: url("/img/phoneb.jpg");
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+h1 {
+  color: rgb(137, 201, 238);
+  font-size: 70px;
+}
+
+h3 {
+  color: rgb(137, 201, 238);
+}
+
+.card-flip, .card {
+  background-color:#c5cae949;
+  
+}
+
+
+/* for demo purposes */
+.card {
+  margin: 10px 10px;
+}
+
+/* Flip Cards CSS */
+.card-container {
+  display: grid;
+  perspective: 700px;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.front {
+  grid-area: frontAndBack;
+}
+
+.back {
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}

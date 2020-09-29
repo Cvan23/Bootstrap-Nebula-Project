@@ -30,8 +30,13 @@ h3 {
   color: rgb(137, 201, 238);
 }
 
-.card-flip, .card {
+.card-flip, .card, .dropdown-menu {
   background-color:#c5cae949;
+  
+}
+
+.dropdown-item {
+  color: aliceblue;
   
 }
 
@@ -52,7 +57,7 @@ h3 {
   grid-template: 1fr / 1fr;
   grid-template-areas: "frontAndBack";
   transform-style: preserve-3d;
-  transition: all 0.7s ease;
+  transition: all 1s ease;
 }
 
 .card-flip div {
